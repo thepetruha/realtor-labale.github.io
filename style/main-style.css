@@ -28,6 +28,12 @@
 .menu-top-block h1{
     display: block;
     float: left;
+    margin-left: 25px;
+}
+.menu-top-block img{
+    width: 10%;
+    display: block;
+    float: left;
     margin-left: 50px;
 }
 .menu-top-block ul{
@@ -105,7 +111,6 @@
     padding: 2%;
 }
 .grant img{
-    display: block;
     width: 30vw;
     height: 35vh;
     float: left;
@@ -138,19 +143,117 @@
     padding: 0% 2% 2% 2%;
 }
 .info-conpany img{
-    width: 40vw;
+    width: 30vw;
     height:60vh;
     margin-left: 5%;
 }
+.info-conpany img:hover{
+    transition: 1s;
+    box-shadow: 0px 0px 30px black;
+    border-radius: 100%;
+}
 .text-info{
+    width: 50%;
     display: block;
-    float: left;
+    float: right;
+    word-break: break-all;
+    margin-right: 5%;
 }
 .text-info h2{
     display: block;
-    font-size: 35px;
+    font-size: 30px;
 }
 .text-info h3{
     display: block;
 }
 
+
+
+
+
+.photo-grid{
+    padding: 0% 2% 2% 2%;
+}
+.photo-grid img{
+    width: 32%;
+    height: 30%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+
+
+.main-block-send{
+    color: white;
+    background-color: rgba(110, 66, 29, 0.699);
+}
+.send-email{
+    padding: 0% 2% 2% 2%;
+}
+.send-email img{
+    width: 40vw;
+    height:70vh;
+}
+.send-email{
+    display: block;
+}
+.send-email h2{
+    display: block;
+    font-size: 35px;
+    text-align: center;
+}
+.text-send{
+    display: block;
+    float: right;
+    margin-right: 10%;
+}
+
+
+
+
+
+.bottom-block{
+    /* width: 100vw; */
+    height: 15vh;
+    background-image: url('https://static.tildacdn.com/tild6633-3134-4661-b832-363839653137/95_1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-top: 2%;
+    padding: 2%;
+}
+.menu-bottom-block{
+    height: 5%;
+    color: white;
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+.menu-bottom-block h1{
+    display: block;
+    float: left;
+    margin-left: 25px;
+}
+.bottom-block img{
+    width: 5%;
+    display: block;
+    float: left;
+    margin-left: 50px;
+}
+.menu-bottom-block ul{
+    list-style-type: none;
+    display: block;
+    float: right;
+    font-size: 33px;
+    font-weight: 600;
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+.menu-bottom-block li{
+    display: inline;
+    padding-right: 50px;
+}
+.menu-bottom-block a{
+    text-decoration: none;
+    color: white;
+}
