@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Exo';
+    src: url('../fonts/Exo_2.0_Thin.ttf');
+}
+
+*, html{
+    margin:  0 ;
+    padding: 0 ;
+    font-family: Exo;
+}
+/* ********************************************* */
+.top-block{
+    /* width: 100vw; */
+    height: 100vh;
+    background-image: url('https://static.tildacdn.com/tild6633-3134-4661-b832-363839653137/95_1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.menu-top-block{
+    height: 5%;
+    color: white;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    background-color: rgba(110, 66, 29, 0.699);
+    backdrop-filter: blur(5px);
+}
+.menu-top-block h1{
+    display: block;
+    float: left;
+    margin-left: 50px;
+}
+.menu-top-block ul{
+    list-style-type: none;
+    display: block;
+    float: right;
+    font-size: 33px;
+    font-weight: 600;
+    margin-left: 0;
+    padding-left: 0;
+}
+.menu-top-block li{
+    display: inline;
+    padding-right: 50px;
+}
+.menu-top-block a{
+    text-decoration: none;
+    color: white;
+}
+.content-top-block{
+    position: absolute;
+    margin: 0;
+    left: 51%;
+    top: 51%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.content-top-block h1{
+    color: white;
+    font-size: 100px;
+    margin-bottom: 10%;
+    font-weight: 900;
+}
+.content-top-block span{
+    font-weight: 500;
+}
+.content-top-block a{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 32%;
+    padding: 2%;
+    background-color: rgba(110, 66, 29, 0.699);
+    backdrop-filter: blur(5px);
+}
+.content-top-block a:hover{
+    background-color: rgba(29, 34, 110, 0.699);
+    transition: 0.4s;
+}
+
+
+.garant-block{
+    margin-bottom: 5%;
+}
+.main-text {
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 2%;
+    padding-top: 2%;
+}
+.line{
+    width: 10%;
+    height: 5px;
+    margin-left: 45%;
+    background-color: black;
+    margin-bottom: 5%;
+}
+.grant{
+    height: 35vh;
+    display: flex;
+    margin-bottom: 2%;
+    padding: 2%;
+}
+.grant img{
+    width: 30vw;
+    height: 35vh;
+    float: left;
+    margin-right: 5%;
+    /* border-radius: 200px; */
+    /* box-shadow: 0px 0px 30px black; */
+}
+.text-garant h1{
+    display: block;
+    font-size: 35px;
+}
+.text-garant h3{
+    display: block;
+    font-size: 20px;
+}
+
+
+
+
+.main-block-info-company{
+    color: white;
+    background-color: rgba(110, 66, 29, 0.699);
+}
+.info-conpany{
+    padding: 0% 2% 2% 2%;
+}
+.info-conpany img{
+    width: 40vw;
+    height:60vh;
+    margin-left: 5%;
+}
+.text-info{
+    display: block;
+    float: left;
+}
+.text-info h2{
+    display: block;
+    font-size: 35px;
+}
+.text-info h3{
+    display: block;
+}
+
