@@ -10,11 +10,11 @@
 }
 /* ********************************************* */
 .main-window-block{
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
 }
 .top-block{
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
     background-image: url('https://media.sketchfab.com/avatars/c39ae388d052451ebbee1b73716cb8ad/1e467e0b35ba4650b208255925e03e05.jpg');
     background-repeat: no-repeat;
