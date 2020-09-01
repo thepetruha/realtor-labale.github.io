@@ -108,7 +108,9 @@
     height: 35vh;
     display: flex;
     margin-bottom: 2%;
-    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 1%;
 }
 .grant img{
     width: 30vw;
@@ -123,12 +125,34 @@
     /* border-radius: 200px; */
     box-shadow: 0px 0px 30px black;
 }
+.grant2{
+    height: 35vh;
+    display: flex;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 1%;
+    border: black dashed 5px;
+}
+.grant2 img{
+    width: 30vw;
+    height: 35vh;
+    float: left;
+    margin-right: 5%;
+    /* border-radius: 200px; */
+    /* box-shadow: 0px 0px 30px black; */
+}
+.grant2:hover{
+    transition: 0.4s;
+    /* border-radius: 200px; */
+    box-shadow: 0px 0px 30px black;
+}
 .text-garant h1{
     display: block;
     font-size: 35px;
 }
 .text-garant h3{
-    display: block;
+    display:block;
     font-size: 20px;
 }
 
@@ -186,13 +210,14 @@
 .main-block-send{
     color: white;
     background-color: rgb(58, 30, 7);
+    height: 100%;
 }
 .send-email{
     padding: 0% 2% 2% 2%;
 }
 .send-email img{
-    width: 40vw;
-    height:70vh;
+    width: 37vw;
+    height:60vh;
 }
 .send-email{
     display: block;
